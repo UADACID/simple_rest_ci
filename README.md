@@ -5,7 +5,7 @@
 #setting api key :
 #masuk direktori application -> config -> rest.php :
 config['rest_keys_table'] = 'keys';
-/*
+
 |-------------------------------------------------------------------------
 | REST Enable Keys
 |--------------------------------------------------------------------------
@@ -16,17 +16,17 @@ config['rest_keys_table'] = 'keys';
 |
 | Default table schema:
 |   CREATE TABLE `keys` (
-       `id` INT(11) NOT NULL AUTO_INCREMENT,
+|       `id` INT(11) NOT NULL AUTO_INCREMENT,
 |       `key` VARCHAR(40) NOT NULL,
 |       `level` INT(2) NOT NULL,
 |       `ignore_limits` TINYINT(1) NOT NULL DEFAULT '0',
 |       `is_private_key` TINYINT(1)  NOT NULL DEFAULT '0',
 |       `ip_addresses` TEXT NULL DEFAULT NULL,
 |       `date_created` INT(11) NOT NULL,
-       PRIMARY KEY (`id`)
+|       PRIMARY KEY (`id`)
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
-*/
+
 
 #buat table key dengan schema sql di atas, lalu isikan key yang di inginkan,
 

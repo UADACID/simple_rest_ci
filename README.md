@@ -28,7 +28,7 @@ config['rest_keys_table'] = 'keys';
 |
 
 
-#buat table key dengan schema sql di atas, lalu isikan key yang di inginkan,
+#cari table key seperty schema sql di atas, lalu copy dan pastekan di sql phpmyadmin, isikan value key yang di inginkan ke table key,
 
 
 

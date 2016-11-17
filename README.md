@@ -38,7 +38,7 @@ config['rest_keys_table'] = 'keys';
 
 
 
-
+#link request :
 
 ambil semua data, method GET http://localhost/rest_ci/index.php/crud/mahasiswa
 
@@ -47,6 +47,8 @@ ambil data tunggal, method GET http://localhost/rest_ci/index.php/crud/mahasiswa
 hapus data, method POST http://localhost/rest_ci/index.php/crud/delete_mahasiswa/(params_id)
 
 edit data, method POST http://localhost/rest_ci/index.php/crud/edit_mahasiswa/(params_id)
-=======
+
+
+
 simple_rest_ci
 >>>>>>> da8f669b4e40084964cddfd2cec7af0339137d52
